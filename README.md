@@ -1,7 +1,10 @@
 # Automatic molecule design by optimizing the data-driven binary latent space via a GPU-based Ising machine
 
+We build a molecular generation pipeline based on sampling in high dimensional discrete latent spaces via an GPU-based Ising machine.
+
 <img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
 
+The implementation of binary VAE is modified from junction tree VAE developed by [Jin et al.](https://github.com/wengong-jin/icml18-jtnn)
 
 # Requirements
 amplify==0.9.1  
@@ -26,5 +29,5 @@ This repository contains the Python 3 implementation of the new Fast Junction Tr
 * `im/` contains codes for optimizing latent binary molecular space via an Ising machine. Please refer to `im/READE.md` for details.
 
 # Contact
-Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)
+Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)  
 Cite this code: [![DOI](https://zenodo.org/badge/608057945.svg)](https://zenodo.org/badge/latestdoi/608057945)
