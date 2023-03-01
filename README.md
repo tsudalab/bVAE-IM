@@ -5,7 +5,7 @@ We build a molecular generation pipeline based on sampling in high dimensional d
 <img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
 
 The implementation of binary VAE is modified from junction tree VAE developed by [Jin et al.](https://github.com/wengong-jin/icml18-jtnn)  
-The GPU-based Ising machine employed in the present research is available at https://amplify.fixstars.com/en/.
+We employed the GPU-based Ising machine, [Amplify](https://amplify.fixstars.com/en/), to solve the high dimensional QUBO model for molecule optimization.
 
 # Requirements
 amplify==0.9.1  
