@@ -17,7 +17,7 @@ numpy==1.21.5
 rdkit==2022.9.5  
 scikit_learn==1.2.1  
 scipy==1.7.3  
-torch==1.11.0
+torch==1.11.0  
 tqdm==4.64.0
 
 # Quick Start
