@@ -32,7 +32,7 @@ Default Options:
 
 `--patience 300` means the training of factorization machine stops without loss reduction after 300 epoch.
 
-`--target max` means to maximize the optimization target. For minimization, set `--target min`.
+`--target max` means to maximize the optimization target. For minimization, set `--target min` instead.
 
 `--num 300` means to output 300 optimized molecules.
 
