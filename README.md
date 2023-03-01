@@ -1,6 +1,6 @@
 # Automatic molecule design by optimizing the data-driven binary latent space via a GPU-based Ising machine
 
-<img src="https://github.com/tsudalab/bVAE-IM/blob/main/Overview.pdf" width="600">
+<img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
 
 
 # Requirements
