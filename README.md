@@ -30,7 +30,7 @@ This repository contains the Python 3 implementation of the new Fast Junction Tr
 * `im/` contains codes for optimizing latent binary molecular space via an Ising machine. Please refer to `im/READE.md` for details.
 
 # Contact
-Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)
-Department of Computational Biology and Medical Science
-The University of Tokyo
+Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)\
+Department of Computational Biology and Medical Science\
+The University of Tokyo\
 Cite this code: [![DOI](https://zenodo.org/badge/608057945.svg)](https://zenodo.org/badge/latestdoi/608057945)
