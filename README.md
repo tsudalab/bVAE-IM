@@ -1,4 +1,4 @@
-# Automatic molecule design by optimizing the data-driven binary latent space via a GPU-based Ising machine
+# Chemical Design with GPU-based Ising Machine
 
 We build a molecular generation pipeline based on sampling in high dimensional discrete latent spaces via an GPU-based Ising machine.
 
@@ -30,5 +30,7 @@ This repository contains the Python 3 implementation of the new Fast Junction Tr
 * `im/` contains codes for optimizing latent binary molecular space via an Ising machine. Please refer to `im/READE.md` for details.
 
 # Contact
-Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)  
+Zetian Mao (zmao@g.ecc.u-tokyo.ac.jp)
+Department of Computational Biology and Medical Science
+The University of Tokyo
 Cite this code: [![DOI](https://zenodo.org/badge/608057945.svg)](https://zenodo.org/badge/latestdoi/608057945)
