@@ -39,7 +39,7 @@ tqdm==4.64.0
 # Quick Start
 
 * `data/` contains codes for selecting labeled data. Please refer to `data/README.md` for details.
-* `train/` contains codes for binary VAE training. Please refer to `model/README.md` for details.
+* `train/` contains codes for binary VAE training. Please refer to `train/README.md` for details.
 * `bJTVAE/` contains codes for model implementation.
 * `im/` contains codes for optimizing latent binary molecular space via an Ising machine. Please refer to `im/README.md` for details.
 
