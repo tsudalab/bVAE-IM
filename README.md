@@ -1,11 +1,27 @@
 # Chemical Design with GPU-based Ising Machine
+## Abstract
 
-We build a molecular generation pipeline based on sampling in high dimensional discrete latent spaces via an GPU-based Ising machine.
+Ising machines
+are hardware-assisted discrete optimizers
+that often outperform purely software-based optimization.
+They are implemented, e.g., with superconducting qubits, ASICs or GPUs.
+In this paper, we show how Ising machines can be leveraged to gain
+efficiency improvements in automatic molecules design. 
+To this aim, we construct a graph-based binary variational autoencoder
+to obtain discrete latent vectors,
+train a factorization machine as a surrogate model,
+and optimize it with an Ising machine.
+In comparison to Bayesian optimization in a continuous latent space,
+our method performed better in three benchmarking problems.
+Two types of Ising machines, qubit-based D-Wave quantum annealer
+and GPU-based Fixstars [Amplify](https://amplify.fixstars.com/en/), are compared to observe that
+GPU-based one scales better and more suitable for molecule generation.
+Our results show that GPU-based Ising machines have the potential
+to empower deep-learning-based materials design.
 
 <img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
 
 The implementation of binary VAE is modified from junction tree VAE developed by [Jin et al.](https://github.com/wengong-jin/icml18-jtnn)  
-We employed the GPU-based Ising machine, [Amplify](https://amplify.fixstars.com/en/), to solve the high dimensional QUBO model for molecule optimization.
 
 # Requirements
 amplify==0.9.1  
@@ -21,9 +37,6 @@ torch==1.11.0
 tqdm==4.64.0
 
 # Quick Start
-
-## Code for Accelerated Training
-This repository contains the Python 3 implementation of the new Fast Junction Tree Variational Autoencoder code.
 
 * `bvae/` contains codes for binary VAE training. Please refer to `model/README.md` for details.
 * `model/` contains codes for model implementation.

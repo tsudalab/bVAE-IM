@@ -1,0 +1,29 @@
+seed: 1
+device: 'cuda'
+vae_model:
+  model_path: '../fast_molvae/vae_model/dim300/best/model.iter-155000'      # model path
+  vocab_path: '../data/zinc/vocab.txt'                                      # vocab path
+  binary_dim: 300                                                           # binary dimensionality
+  depthT: 20                                                                # tree depth 
+  depthG: 3                                                                 # graph depth
+opt:
+  train_smiles: '../data/opt/tpsa_train_smiles10k.npy'                     # smiles training data for surrogate model
+  train_prop: '../data/opt/tpsa_train_props10k.npy'                        # property training data for surrogate model
+  output: './results/pls-tpsa-dim300-seed1-10k'                          # output path
+  cache: './cache'                                                          # cache path
+  surro_model: 'pls'                                                      # selected surrogate model
+  n_comp: 2                                                                 # Number of components to keep in PLS
+  decay_weight: None                                                        # decay weight in training the surrogate model
+  factor_num: None                                                          # factorization size in the factorization machine
+  maxepoch: None                                                            # maximum epoch in training the factorization machine
+  lr: None                                                                  # learning rate in training the factorization machine
+  patience: None                                                            # patience for unimproved epoches
+  batch_size: None                                                          # batch size in training the factorization machine
+  end_cond: 0                                                               # end condition for optimization
+  # 0 --> certain number of iterations; 1 --> certain number of new molecule; 2 --> exhaustion
+  target: 'max'                                                             # maximize or minimize the target score
+  prop: 'logp'                                                              # optimized property
+  num_end: 300                                                              # number for the end condition
+  n_sample: 1                                                               # number of sampled binary vectors for each molecule
+  client: 'amplify'                                                         # amplify or d-wave
+  client_token: 'xxxxxxxxxxxxxxxx'                                          # token for connection
