@@ -9,7 +9,7 @@ python bVAE-IM.py -y config/amplify_logp_fm.yaml
 ```
 Note that a valid token should be filled in the `.yaml` file before running the code.
 
-Other experiments can be duplicated by replacing the config file with others.
+All the config files used in our work are uploaded in `config/`. All xperiments can be duplicated with corresponding config files.
 
 Modify the random seed in `.yaml` to get different optimization results.
 
