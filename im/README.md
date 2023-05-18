@@ -7,6 +7,7 @@ Here gives an example for optimizing penalized LogP with the factorization machi
 ```
 python bVAE-IM.py -y config/amplify_logp_fm.yaml
 ```
+Note that a valid token should be filled in the `.yaml` file before running the code.
 
 Other experiments can be duplicated by replacing the config file with others.
 
