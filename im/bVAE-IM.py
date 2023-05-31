@@ -97,8 +97,6 @@ class bVAE_IM(object):
             from scorers.aroring_scores import score_function
         elif target_prop == 'rotbond':
             from scorers.rotbond_scores import score_function
-        elif target_prop == 'sim':
-            from scorers.sim_scores import score_function
         else:
             raise ValueError("please define the score function first.")
         self.get_score = score_function
@@ -248,7 +246,7 @@ class bVAE_IM(object):
                 
             qubo = Q_mat
                 
-        else:
+        elif model_type == 'fm:
             model = TorchFM(self.n_binary, configs['opt']['factor_num']).to(self.device)
             for param in model.parameters():
                 if param.dim() == 1:
