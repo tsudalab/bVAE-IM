@@ -1,7 +1,7 @@
 # Chemical Design with GPU-based Ising Machine
 
-## Paper
-Our paper has been published at [https://doi.org/10.1039/D3DD00047H](https://doi.org/10.1039/D3DD00047H)!
+## Details
+Details are available at our published paper [https://doi.org/10.1039/D3DD00047H](https://doi.org/10.1039/D3DD00047H).
 
 ## Abstract
 
