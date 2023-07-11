@@ -25,7 +25,7 @@ to empower deep-learning-based materials design.
 
 <img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
 
-The implementation of binary VAE is modified from junction tree VAE developed by [Jin et al.](https://github.com/wengong-jin/icml18-jtnn)  
+The implementation of binary VAE is based on the work [Jin et al., Junction Tree Variational Autoencoder for Molecular Graph Generation.](https://arxiv.org/pdf/1802.04364.pdf)
 
 # Requirements
 amplify==0.9.1  
