@@ -23,7 +23,9 @@ GPU-based one scales better and more suitable for molecule generation.
 Our results show that GPU-based Ising machines have the potential
 to empower deep-learning-based materials design.
 
-<img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
+<p align="center">
+  <img src="https://github.com/tsudalab/bVAE-IM/blob/main/overview.png" width="600">
+</p>
 
 The implementation of binary VAE is based on the work [Junction Tree Variational Autoencoder for Molecular Graph Generation.](https://arxiv.org/pdf/1802.04364.pdf)
 
